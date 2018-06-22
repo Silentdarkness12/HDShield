@@ -1,0 +1,13 @@
+CGI/On		DSFRCON
+CGI/Off	DSFRCOFF
+CGI/Loop	DSFRCLOP
+CGI/Raise dsshldup
+CGI/Lower dsshlddw
+
+CGI/Hit1	DSZAPHT1
+CGI/Hit2	DSZAPHT2
+CGI/Hit3	DSZAPHT3
+
+
+$random CGI/Hit	{ CGI/Hit1 CGI/Hit2 CGI/Hit3 }
+$limit ForceBarrier/Hit	0
