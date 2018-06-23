@@ -851,7 +851,7 @@ Activate:
     SEPS K 1;
 	TNT1 A 0 A_PlaySound ("CGI/Loop");
 	TNT1 A 0{
-	if(!random(0,2048))battery--;
+	if(!random(0,1250))battery--;
 	if(Battery < 16)
 	{
 	SetStateLabel("See2");
@@ -864,7 +864,7 @@ Activate:
     SEPS J 1;
 	TNT1 A 0 A_PlaySound ("CGI/Loop");
 	TNT1 A 0{
-	if(!random(0,2048))battery--;
+	if(!random(0,1250))battery--;
 	if(Battery < 11)
 	{
 	SetStateLabel("See3");
@@ -877,7 +877,7 @@ Activate:
     SEPS I 1;
 	TNT1 A 0 A_PlaySound ("CGI/Loop");
 	TNT1 A 0{
-	if(!random(0,2048))battery--;
+	if(!random(0,1250))battery--;
 	if(Battery < 6)
 	{
 	SetStateLabel("See4");
@@ -890,7 +890,7 @@ Activate:
     SEPS H 1;
 	TNT1 A 0 A_PlaySound ("CGI/Loop");
 	TNT1 A 0{
-	if(!random(0,2048))battery--;
+	if(!random(0,1250))battery--;
 	if(Battery == 0)
 	{
 	SetStateLabel("Powerless");
@@ -900,9 +900,7 @@ Activate:
     SEPS H 2;
     Loop;
 	FailedToGrab:
-	SEPS K 0{
-	bSolid = false;
-	}
+	SEPS K 0;
 	SEPS G 9;
 	SEPS G 0 A_PlaySound("CGI/Lower",CHAN_AUTO);
 	SEPS GGFFEEDDCCBBAA 3;
@@ -978,23 +976,17 @@ Activate:
 		stop;
   Powerless:
     SEPS G 0 A_PlaySound ("CGI/Off",CHAN_AUTO);
-	SEPS G 1{
-	}
+	SEPS G 1;
 	SEPS G 9 A_PlaySound("CGI/Lower",CHAN_AUTO);
-	SEPS K 0{
-	bSolid = false;
-	}
+	SEPS K 0;
 	SEPS GFEDCBA 4;
-	SEPS A 1 {
-	bSolid = true;
+	SEPS A 1{
+	ShieldOn = false;
 	}
 	PowerlessLoop:
 	SEPS A 4;
 	Loop;
 	Death:
-	SEPS K 0{
-	bSolid = false;
-	}
 	SEPS G 1 A_PlaySound("weapons/bigcrack",5);
 		SEPS G 1 A_PlaySound("weapons/bigcrack",6);
 		SEPS G 1 A_PlaySound("weapons/bigcrack",7);
