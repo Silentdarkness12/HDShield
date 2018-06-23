@@ -52,7 +52,7 @@ Texture "SAPSI0", 3, 9
 	Patch "DEPSB0", -11, -10
 }
 
-Sprite "SEPSA0", 30, 26
+Sprite "SEPSA0", 30, 31
 {
 	Offset 15, 22
 	Patch "SAPSC0", 5, 18
@@ -79,7 +79,7 @@ Sprite "SEPSA0", 30, 26
 	}
 }
 
-Sprite "SEPSB0", 30, 28
+Sprite "SEPSB0", 30, 33
 {
 	Offset 15, 24
 	Patch "SAPSA0", 1, 0
@@ -104,7 +104,7 @@ Sprite "SEPSB0", 30, 28
 	Patch "SAPSE0", 6, 0
 }
 
-Sprite "SEPSC0", 30, 30
+Sprite "SEPSC0", 30, 35
 {
 	Offset 15, 26
 	Patch "SAPSA0", 1, 0
@@ -129,7 +129,7 @@ Sprite "SEPSC0", 30, 30
 	Patch "SAPSE0", 6, 0
 }
 
-Sprite "SEPSD0", 30, 32
+Sprite "SEPSD0", 30, 37
 {
 	Offset 15, 28
 	Patch "SAPSA0", 1, 0
@@ -154,7 +154,7 @@ Sprite "SEPSD0", 30, 32
 	Patch "SAPSE0", 6, 0
 }
 
-Sprite "SEPSE0", 30, 34
+Sprite "SEPSE0", 30, 39
 {
 	Offset 15, 30
 	Patch "SAPSA0", 1, 0
@@ -179,7 +179,7 @@ Sprite "SEPSE0", 30, 34
 	Patch "SAPSE0", 6, 0
 }
 
-Sprite "SEPSF0", 30, 36
+Sprite "SEPSF0", 30, 41
 {
 	Offset 15, 32
 	Patch "SAPSA0", 1, 0
@@ -204,7 +204,7 @@ Sprite "SEPSF0", 30, 36
 	Patch "SAPSE0", 6, 0
 }
 
-Sprite "SEPSG0", 30, 38
+Sprite "SEPSG0", 30, 43
 {
 	Offset 15, 34
 	Patch "SAPSA0", 22, 0
@@ -230,7 +230,7 @@ Sprite "SEPSG0", 30, 38
 	Patch "SAPSE0", 6, 0
 }
 
-Sprite "SEPSH0", 30, 38
+Sprite "SEPSH0", 30, 45
 {
 	Offset 15, 34
 	Patch "SAPSA0", 1, 0
@@ -259,7 +259,7 @@ Sprite "SEPSH0", 30, 38
 	Patch "SAPSF0", 16, 20
 }
 
-Sprite "SEPSI0", 30, 38
+Sprite "SEPSI0", 30, 48
 {
 	Offset 15, 34
 	Patch "SAPSA0", 1, 0
@@ -288,7 +288,7 @@ Sprite "SEPSI0", 30, 38
 	Patch "SAPSG0", 16, 20
 }
 
-Sprite "SEPSJ0", 30, 38
+Sprite "SEPSJ0", 30, 48
 {
 	Offset 15, 34
 	Patch "SAPSA0", 1, 0
@@ -317,7 +317,7 @@ Sprite "SEPSJ0", 30, 38
 	Patch "SAPSH0", 16, 20
 }
 
-Sprite "SEPSK0", 30, 38
+Sprite "SEPSK0", 30, 43
 {
 	Offset 15, 34
 	Patch "SAPSA0", 1, 0
@@ -348,7 +348,7 @@ Sprite "SEPSK0", 30, 38
 	}
 }
 
-Sprite "SEPSL0", 30, 26
+Sprite "SEPSL0", 30, 31
 {
 	Offset 15, 22
 	Patch "SAPSC0", 5, 18
